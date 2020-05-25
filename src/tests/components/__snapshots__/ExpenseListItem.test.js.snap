@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render indidual list item 1`] = `
+<tr>
+  <td>
+    <Link
+      to="edit/1"
+    >
+      Gum
+    </Link>
+  </td>
+  <td>
+    195
+  </td>
+  <td>
+    0
+  </td>
+</tr>
+`;
