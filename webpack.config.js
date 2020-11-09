@@ -8,6 +8,7 @@ module.exports = (env) => {
     console.log(isProduction);
     const CSSExtract = new MiniCssExtractPlugin({
         filename: "style.css",
+        linkType: "text/css"
     });
     return {
         entry : "./src/app.js",
@@ -23,7 +24,6 @@ module.exports = (env) => {
             }, {
                 test : /\.s?css$/,
                 use : [
-                    'style-loader',
                     MiniCssExtractPlugin.loader,
                     {
                         loader : 'css-loader',
