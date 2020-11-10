@@ -10,10 +10,10 @@ exports[`Should render indidual list item 1`] = `
     </Link>
   </td>
   <td>
-    195
+    $1.95
   </td>
   <td>
-    0
+    January 1st, 1970
   </td>
 </tr>
 `;
